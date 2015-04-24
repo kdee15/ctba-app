@@ -145,6 +145,7 @@
                         
                     </td>
                     <td class="td__icon">
+                        <a class="icon" href="player__print.php"><img src="assets/images/svg/ct-print.svg"/></a>
                         <a class="icon" href="player__detail.php"><img src="assets/images/svg/ct-edit.svg"/></a>
                         <a class="icon"><img src="assets/images/svg/ct-delete.svg"/></a>
                     </td>
@@ -223,6 +224,7 @@
                         
                     </td>
                     <td class="td__icon">
+                        <a class="icon" href="player__print.php"><img src="assets/images/svg/ct-print.svg"/></a>
                         <a class="icon" href="player__detail.php"><img src="assets/images/svg/ct-edit.svg"/></a>
                         <a class="icon"><img src="assets/images/svg/ct-delete.svg"/></a>
                     </td>

@@ -69,7 +69,7 @@
                     <td class="player__team">
                         <span>club name</span>
                         <span class="icon div-toggle" name="player-edit-1">
-                            <img src="../assets/images/svg/ct-edit.svg"/>
+                            <img src="assets/images/svg/ct-edit.svg"/>
                         </span>
                         <div class="toggle-content" id="player-edit-1">
                                 <span>
@@ -86,17 +86,17 @@
                                     </div>
                                 </span>
                                 <span class="icon div-toggle" name="player-edit-1">
-                                    <img src="../assets/images/svg/ct-save.svg"/>
+                                    <img src="assets/images/svg/ct-save.svg"/>
                                 </span>
                                 <span class="icon div-toggle" name="player-edit-1">
-                                    <img src="../assets/images/svg/ct-close.svg"/>
+                                    <img src="assets/images/svg/ct-close.svg"/>
                                 </span>
                         </div>
                     </td>
 
                     <td class="td__icon">
-                        <a class="icon" href="user__detail.php"><img src="../assets/images/svg/ct-edit.svg"/></a>
-                        <a class="icon"><img src="../assets/images/svg/ct-delete.svg"/></a>
+                        <a class="icon" href="user__detail.php"><img src="assets/images/svg/ct-edit.svg"/></a>
+                        <a class="icon"><img src="assets/images/svg/ct-delete.svg"/></a>
                     </td>
                 
                 </tr>

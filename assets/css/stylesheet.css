@@ -1819,6 +1819,10 @@ h1 {
   margin-top: 0;
 }
 
+a {
+  outline: 0;
+}
+
 .div-toggle,
 .div-hover {
   cursor: pointer;
