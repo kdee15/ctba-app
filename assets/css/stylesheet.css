@@ -1893,6 +1893,15 @@ h1 {
   display: inline-block;
 }
 
+.footer__nav {
+  list-style-type: none;
+  margin: 24px 0;
+  padding: 0;
+}
+.footer__nav li {
+  display: inline-block;
+}
+
 @media only screen and (max-width: 480px) {
   .mobi-reveal {
     display: block;
@@ -1983,6 +1992,20 @@ h1 {
   margin: 0;
   margin-right: 12px;
   float: left;
+}
+.player-card .player-photo .player-photo__container {
+  position: relative;
+  width: 100%;
+}
+.player-card .player-photo .player-photo__container:before {
+  content: "";
+  display: block;
+  padding-top: 50%;
+}
+.player-card .player-photo .player-photo__container img {
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 .player-card .card__content {
   float: left;
@@ -2214,4 +2237,10 @@ body {
 .print {
   background: #fff !important;
   font-family: arial, helvetica, "times new roman";
+}
+.print .page__player-cards {
+  margin-left: 0 !important;
+}
+.print .page__player-cards .player-card {
+  padding-left: 0 !important;
 }

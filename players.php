@@ -310,6 +310,13 @@
             
             </table>
             
+            <ul class="footer__nav">
+        
+                <li><a class="button" href="player__print.php"><span>PRINT MEMBER CARDS</span></a></li>
+                <li><a class="button" href="player__print.php"><span>SAVE PDF</span></a></li>
+
+            </ul>
+            
         </form>
         
     </div>

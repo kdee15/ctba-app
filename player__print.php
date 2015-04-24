@@ -46,24 +46,123 @@
 
     </article>
             
+    
     <article class="player-card grid__half">
 
-        <figure>
+        <figure class="player-photo">
 
-
+            <img src="http://www.placehold.it/100x150" alt="photo" />
 
         </figure>
 
-        <section>
+        <section class="card__content">
 
             <h3>First Name</h3>
             <h3>Surname</h3>
             <p>00/00/0000</p>
+            <div class="bsa-no">0000</div>
+            <ul class="role list">
+            
+                <li>player</li>
+                <li>coach</li>
+                <li>ref</li>
+                <li>table</li>
+            
+            </ul>
 
 
         </section>
 
     </article>
+            
+    
+    <article class="player-card grid__half">
+
+        <figure class="player-photo">
+
+            <img src="http://www.placehold.it/100x150" alt="photo" />
+
+        </figure>
+
+        <section class="card__content">
+
+            <h3>First Name</h3>
+            <h3>Surname</h3>
+            <p>00/00/0000</p>
+            <div class="bsa-no">0000</div>
+            <ul class="role list">
+            
+                <li>player</li>
+                <li>coach</li>
+                <li>ref</li>
+                <li>table</li>
+            
+            </ul>
+
+
+        </section>
+
+    </article>
+            
+    
+    <article class="player-card grid__half">
+
+        <figure class="player-photo">
+
+            <img src="http://www.placehold.it/100x150" alt="photo" />
+
+        </figure>
+
+        <section class="card__content">
+
+            <h3>First Name</h3>
+            <h3>Surname</h3>
+            <p>00/00/0000</p>
+            <div class="bsa-no">0000</div>
+            <ul class="role list">
+            
+                <li>player</li>
+                <li>coach</li>
+                <li>ref</li>
+                <li>table</li>
+            
+            </ul>
+
+
+        </section>
+
+    </article>
+            
+    
+    <article class="player-card grid__half">
+
+        <figure class="player-photo">
+
+            <img src="http://www.placehold.it/100x150" alt="photo" />
+
+        </figure>
+
+        <section class="card__content">
+
+            <h3>First Name</h3>
+            <h3>Surname</h3>
+            <p>00/00/0000</p>
+            <div class="bsa-no">0000</div>
+            <ul class="role list">
+            
+                <li>player</li>
+                <li>coach</li>
+                <li>ref</li>
+                <li>table</li>
+            
+            </ul>
+
+
+        </section>
+
+    </article>
+            
+
         
 </section>
 

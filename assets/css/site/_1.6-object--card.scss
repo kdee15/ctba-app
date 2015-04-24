@@ -81,6 +81,18 @@
         margin-right: $baseline/2;
         float: left;
         
+        .player-photo__container {
+            
+            @include aspect-ratio(100%, 50%);
+            
+            img {
+                
+                position: absolute;
+                top: 0;
+                left: 0;
+                
+            }
+        }
     }
     
     .card__content {

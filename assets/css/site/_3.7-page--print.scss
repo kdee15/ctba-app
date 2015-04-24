@@ -7,9 +7,16 @@
     background: $white !important;
     font-family: arial, helvetica, "times new roman";
     
-    
-    
-
+    .page__player-cards {
+        
+        margin-left: 0 !important;
+        
+        .player-card {
+            
+            padding-left: 0 !important;
+            
+        }
+    }
 }
 
     // A.1. MAJOR SECTION ---------------------------------------------------------------------------------------------
