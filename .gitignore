@@ -4,3 +4,7 @@
 */cache/*
 */cache/!index.html
 */cache/!.htaccess
+
+_system/_bower.cache
+_system/.sass-cache
+_system/node_modules

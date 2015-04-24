@@ -1,0 +1,35 @@
+{
+
+    "name": "CTBA Member App",
+    "version": "1.0.0",
+    "description": "Admin site for CTBA",
+    "siteSource": "",
+    "assets" : {
+        "live": "http://",
+        "staging": "http://",
+        "repository": "https://github.com/kdee15/ctba-app.git"
+    },
+    "core" : {
+        "components" : [
+            "html5shiv/dist/html5shiv.min.js",
+            "modernizr/modernizr.js",
+            "jquery/dist/jquery.min.js",
+            "jquery/dist/jquery.min.map"
+        ],
+        "konstructBase" : [
+            "konstruct.foundation/",
+            "konstruct.bricks/",
+            "konstruct.cement/"
+        ],
+        "konstructVendor" : [
+            "normalize.css/normalize.css"
+        ],
+        "konstructConfig" : [
+            "konstruct.config/"
+        ],
+        "konstructSite" : [
+            "konstruct.site/"
+        ]
+    }
+
+}
