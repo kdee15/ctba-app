@@ -139,6 +139,7 @@ var hoverContent = '';
 // A.3. End
     
 $(function(){
+    
     jQuery('img.svg').each(function(){
         var $img = jQuery(this);
         var imgID = $img.attr('id');
@@ -170,22 +171,7 @@ $(function(){
 });  
     
 // A.3. End
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
+       
     
 	
 });	

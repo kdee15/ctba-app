@@ -1976,6 +1976,39 @@ h1 {
   padding: 12px;
 }
 
+.player-card {
+  border: 1px solid #000;
+}
+.player-card .player-photo {
+  margin: 0;
+  margin-right: 12px;
+  float: left;
+}
+.player-card .card__content {
+  float: left;
+}
+.player-card .card__content h3, .player-card .card__content p {
+  margin: 0;
+}
+.player-card .card__content .bsa-no {
+  font-size: 1.5em;
+  border: 1px solid #000;
+  padding: 24px;
+  margin: 12px 0;
+  width: 5cm;
+}
+.player-card .card__content .role li {
+  display: inline-block;
+  margin-bottom: 24px;
+}
+.player-card .card__content .role li:after {
+  content: "|";
+  padding-left: 6px;
+}
+.player-card .card__content .role li:last-child:after {
+  content: "";
+}
+
 .field-item {
   margin-bottom: 12px;
 }
@@ -2176,4 +2209,9 @@ body {
 .page__users .player__docs .player-photo .div-hover img {
   width: 100%;
   height: auto;
+}
+
+.print {
+  background: #fff !important;
+  font-family: arial, helvetica, "times new roman";
 }

@@ -82,7 +82,7 @@
                     <td class="player__team">
                         <span>club/league - team name</span>
                         <span class="icon div-toggle" name="player-edit-1">
-                            <img src="../assets/images/svg/ct-edit.svg"/>
+                            <img src="assets/images/svg/ct-edit.svg"/>
                         </span>
                         <div class="toggle-content" id="player-edit-1">
                                 <span class="grid">
@@ -121,23 +121,23 @@
                                     
                                 </span>
                                 <span class="icon div-toggle" name="player-edit-1">
-                                    <img src="../assets/images/svg/ct-save.svg"/>
+                                    <img src="assets/images/svg/ct-save.svg"/>
                                 </span>
                                 <span class="icon div-toggle" name="player-edit-1">
-                                    <img src="../assets/images/svg/ct-close.svg"/>
+                                    <img src="assets/images/svg/ct-close.svg"/>
                                 </span>
                         </div>
                     </td>
                     <td class="player__docs">
                         <span class="icon div-toggle div-hover" name="player-pic-1">
-                            <img src="../assets/images/svg/ct-photo.svg"/>
+                            <img src="assets/images/svg/ct-photo.svg"/>
                         </span>
                         <div class="player-photo toggle-content hover-content" id="player-pic-1">
                             <div class="div-toggle div-hover" name="player-pic-1"><img src="http://www.placehold.it/100x150" /></div>
                         </div>
                         
                         <span class="icon div-hover" name="player-doc-1">
-                            <img src="../assets/images/svg/ct-doc.svg"/>
+                            <img src="assets/images/svg/ct-doc.svg"/>
                         </span>
                         <div class="player-photo hover-content" id="player-doc-1">
                             <div class="div-hover" name="player-doc-1"><img src="http://www.placehold.it/100x150" /></div>
@@ -145,8 +145,8 @@
                         
                     </td>
                     <td class="td__icon">
-                        <a class="icon" href="player__detail.php"><img src="../assets/images/svg/ct-edit.svg"/></a>
-                        <a class="icon"><img src="../assets/images/svg/ct-delete.svg"/></a>
+                        <a class="icon" href="player__detail.php"><img src="assets/images/svg/ct-edit.svg"/></a>
+                        <a class="icon"><img src="assets/images/svg/ct-delete.svg"/></a>
                     </td>
                 
                 </tr>
@@ -160,7 +160,7 @@
                     <td class="player__team">
                         <span>club/league - team name</span>
                         <span class="icon div-toggle" name="player-edit-2">
-                            <img src="../assets/images/svg/ct-edit.svg"/>
+                            <img src="assets/images/svg/ct-edit.svg"/>
                         </span>
                         <div class="toggle-content" id="player-edit-2">
                                 <span class="grid">
@@ -199,23 +199,23 @@
                                     
                                 </span>
                                 <span class="icon div-toggle" name="player-edit-2">
-                                    <img src="../assets/images/svg/ct-save.svg"/>
+                                    <img src="assets/images/svg/ct-save.svg"/>
                                 </span>
                                 <span class="icon div-toggle" name="player-edit-2">
-                                    <img src="../assets/images/svg/ct-close.svg"/>
+                                    <img src="assets/images/svg/ct-close.svg"/>
                                 </span>
                         </div>
                     </td>
                     <td class="player__docs">
                         <span class="icon div-toggle div-hover" name="player-pic-2">
-                            <img src="../assets/images/svg/ct-photo.svg"/>
+                            <img src="assets/images/svg/ct-photo.svg"/>
                         </span>
                         <div class="player-photo toggle-content hover-content" id="player-pic-2">
                             <div class="div-toggle div-hover" name="player-pic-2"><img src="http://www.placehold.it/100x150" /></div>
                         </div>
                         
                         <span class="icon div-hover" name="player-doc-2">
-                            <img src="../assets/images/svg/ct-doc.svg"/>
+                            <img src="assets/images/svg/ct-doc.svg"/>
                         </span>
                         <div class="player-photo hover-content" id="player-doc-2">
                             <div class="div-hover" name="player-doc-2"><img src="http://www.placehold.it/100x150" /></div>
@@ -223,8 +223,8 @@
                         
                     </td>
                     <td class="td__icon">
-                        <a class="icon" href="player__detail.php"><img src="../assets/images/svg/ct-edit.svg"/></a>
-                        <a class="icon"><img src="../assets/images/svg/ct-delete.svg"/></a>
+                        <a class="icon" href="player__detail.php"><img src="assets/images/svg/ct-edit.svg"/></a>
+                        <a class="icon"><img src="assets/images/svg/ct-delete.svg"/></a>
                     </td>
                 
                 </tr>
@@ -238,7 +238,7 @@
                     <td class="player__team">
                         <span>club/league - team name</span>
                         <span class="icon div-toggle" name="player-edit-3">
-                            <img src="../assets/images/svg/ct-edit.svg"/>
+                            <img src="assets/images/svg/ct-edit.svg"/>
                         </span>
                         <div class="toggle-content" id="player-edit-3">
                                 <span class="grid">
@@ -277,23 +277,23 @@
                                     
                                 </span>
                                 <span class="icon div-toggle" name="player-edit-3">
-                                    <img src="../assets/images/svg/ct-save.svg"/>
+                                    <img src="assets/images/svg/ct-save.svg"/>
                                 </span>
                                 <span class="icon div-toggle" name="player-edit-3">
-                                    <img src="../assets/images/svg/ct-close.svg"/>
+                                    <img src="assets/images/svg/ct-close.svg"/>
                                 </span>
                         </div>
                     </td>
                     <td class="player__docs">
                         <span class="icon div-toggle div-hover" name="player-pic-3">
-                            <img src="../assets/images/svg/ct-photo.svg"/>
+                            <img src="assets/images/svg/ct-photo.svg"/>
                         </span>
                         <div class="player-photo toggle-content hover-content" id="player-pic-3">
                             <div class="div-toggle div-hover" name="player-pic-3"><img src="http://www.placehold.it/100x150" /></div>
                         </div>
                         
                         <span class="icon div-hover" name="player-doc-3">
-                            <img src="../assets/images/svg/ct-doc.svg"/>
+                            <img src="assets/images/svg/ct-doc.svg"/>
                         </span>
                         <div class="player-photo hover-content" id="player-doc-3">
                             <div class="div-hover" name="player-doc-3"><img src="http://www.placehold.it/100x150" /></div>
@@ -301,8 +301,9 @@
                         
                     </td>
                     <td class="td__icon">
-                        <a class="icon" href="player__detail.php"><img src="../assets/images/svg/ct-edit.svg"/></a>
-                        <a class="icon"><img src="../assets/images/svg/ct-delete.svg"/></a>
+                        <a class="icon" href="player__print.php"><img src="assets/images/svg/ct-print.svg"/></a>
+                        <a class="icon" href="player__detail.php"><img src="assets/images/svg/ct-edit.svg"/></a>
+                        <a class="icon"><img src="assets/images/svg/ct-delete.svg"/></a>
                     </td>
                 
                 </tr>
