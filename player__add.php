@@ -23,6 +23,118 @@
         <section class="page-body">
             
             <form class="form inline">
+                
+                <fieldset>
+
+                    <legend class="panel-heading">
+                        Club Details
+                    </legend>
+
+                    <div>
+
+                        <div class="panel-body">
+                            
+                            <div class="field-item text">
+                                <label for="club-name">Club</label>
+                                <select class="" id="club-details" name="club_details">
+                                    <option value="" selected="selected">- Select -</option>
+                                    <option value="cape_waves">Cape Waves</option>
+                                    <option value="cput_panthers">CPUT Bellville Panthers</option>
+                                    <option value="cput_cats">CPUT Cape Town Cats</option>
+                                    <option value="dragons">Dragons</option>
+                                    <option value="eagles">Eagles</option>
+                                    <option value="gugulethu_hustlers">Gugulethu Hustlers</option>
+                                    <option value="heideveld">Heideveld Basketball</option>
+                                    <option value="hellas">Hellas</option>
+                                    <option value="kulca_knights">Kulca Knights</option>
+                                    <option value="langa_kings">Langa Kings</option>
+                                    <option value="lethal_ladies">Lethal Ladies</option>
+                                    <option value="mvbc">Montana Vikings</option>
+                                    <option value="pinelands">Pinelands</option>
+                                    <option value="spartans">Spartans</option>
+                                    <option value="yda">Themba-Elihle YDA</option>
+                                    <option value="turfall">Turfhall Primary</option>
+                                    <option value="uct">UCT</option>
+                                    <option value="wcss">WCSS</option>
+                                </select>  
+                            </div>
+                            
+                            <div class="field-item text">
+                                <label for="club-name">League</label>
+                                <select class="" id="league-details" name="league_details">
+                                    <option value="" selected="selected">- Select -</option>
+                                    <option value="msl">Mens Super League</option>
+                                </select>
+                            </div>
+
+                            
+                                
+                            
+                            
+
+                        </div>
+
+                    </div>
+                    
+                </fieldset>  
+                
+                <fieldset>
+
+                    <legend class="panel-heading">
+                        Personal Information
+                    </legend>
+
+                    <div>
+
+                        <div class="panel-body">
+                            
+                            <div class="field-item text">
+                                <label for="id-type">Identification Type</label>
+                                <select class="" id="id-type" name="id-type">
+                                    <option value="" selected="selected">- Select -</option>
+                                    <option value="cape_waves">SA ID</option>
+                                    <option value="cput_panthers">Passport</option>
+                                </select>  
+                            </div>
+
+                            <div class="field-item text">
+                                <label for="sa-id">ID No</label>
+                                <input type="text" id="sa-id" placeholder="0000000000000" name="sa-id">
+                            </div>
+                               
+                            <div class="field-item text">
+                                <label for="passport">Passport No</label>
+                                <input type="text" id="passport" placeholder="XX00000000" name="passport">
+                            </div>
+                            
+                            <div class="field-item text">
+                                <label for="passport_expire">Expiry Date</label>
+                                <input id="passport_expire" type="datetime-local" value="2011-01-13"/>
+                            </div>
+                            
+
+                        </div>
+
+                    </div>
+                    
+                </fieldset>   
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
 
                 <div class="field-item text">
                     <label for="club-name">Player Name</label>
