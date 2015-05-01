@@ -35,6 +35,16 @@
                         <div class="panel-body">
                             
                             <div class="field-item text">
+                                <label for="passport">District/Metro</label>
+                                <input type="text" id="district" value="Western Cape Basketball Association" name="district">
+                            </div>
+                                                        
+                            <div class="field-item text">
+                                <label for="passport">League</label>
+                                <input type="text" id="league" value="Cape Town Basketball League" name="league">
+                            </div>
+                            
+                            <div class="field-item text">
                                 <label for="club-name">Club</label>
                                 <select class="" id="club-details" name="club_details">
                                     <option value="" selected="selected">- Select -</option>
@@ -60,24 +70,19 @@
                             </div>
                             
                             <div class="field-item text">
-                                <label for="club-name">League</label>
-                                <select class="" id="league-details" name="league_details">
+                                <label for="division">Division</label>
+                                <select class="" id="division" name="division">
                                     <option value="" selected="selected">- Select -</option>
                                     <option value="msl">Mens Super League</option>
                                 </select>
                             </div>
-
-                            
-                                
-                            
-                            
 
                         </div>
 
                     </div>
                     
                 </fieldset>  
-                
+                                
                 <fieldset>
 
                     <legend class="panel-heading">
@@ -87,6 +92,211 @@
                     <div>
 
                         <div class="panel-body">
+
+                            <div class="field-item text">
+                                
+                                <label for="member-role">Member Role </label>
+                                
+                                <div class="form-type-checkbox">
+                                    <input id="player" name="player" value="player" class="form-checkbox" type="checkbox">  
+                                    <label for="player">Player</label>
+                                </div>
+
+                                <div class="form-type-checkbox">
+                                    <input id="coach" name="coach" value="coach" class="form-checkbox" type="checkbox">  
+                                    <label for="coach">Coach</label>
+                                </div>
+<!-- not needed here
+                                <div class="form-type-checkbox">
+                                    <input id="coach-instructor" name="coach-instructor" value="coach-instructor" class="form-checkbox" type="checkbox">  
+                                    <label for="coach-instructor">Coach Instructor</label>
+                                </div>
+
+                                <div class="form-type-checkbox">
+                                    <input id="commissioner" name="commissioner" value="commissioner" class="form-checkbox" type="checkbox">  
+                                    <label for="commissioner">Commissioner</label>
+                                </div>
+
+                                <div class="form-type-checkbox">
+                                    <input id="ref-instructor" name="ref-instructor" value="ref-instructor" class="form-checkbox" type="checkbox">  
+                                    <label for="ref-instructor">Referee Instructor</label>
+                                </div>
+-->
+                                <div class="form-type-checkbox">
+                                    <input id="ref" name="ref" value="ref" class="form-checkbox" type="checkbox">  
+                                    <label for="ref">Referee</label>
+                                </div>
+
+                                <div class="form-type-checkbox">
+                                    <input id="table" name="table" value="table" class="form-checkbox" type="checkbox"> 
+                                    <label for="table">Table Official</label>
+                                </div>
+
+                                <div class="form-type-checkbox">
+                                    <input id="statistician" name="statistician" value="statistician" class="form-checkbox" type="checkbox">  
+                                    <label for="statistician">Statistician</label>
+                                </div>
+                                
+                            </div>
+
+                            <div class="field-item text">
+                                <label for="sa-id">Name</label>
+                                <input type="text" id="sa-id" placeholder="e.g. Terence" name="sa-id">
+                            </div>
+
+                            <div class="field-item text">
+                                <label for="passport">Surname</label>
+                                <input type="text" id="passport" placeholder="XX00000000" name="passport">
+                            </div>
+
+                            <div class="field-item text">
+                                <label for="passport_expire">date of Birth</label>
+                                <input id="passport_expire" type="datetime-local" value="2011-01-13"/>
+                            </div>
+
+                            <div class="field-item text">
+                                <label for="passport">Place of Birth</label>
+                                <input type="text" id="passport" placeholder="XX00000000" name="passport">
+                            </div>
+                            
+                            <div class="field-item text">
+                                <label for="club-name">Gender*</label>
+                                <select class="" id="league-details" name="league_details">
+                                    <option value="" selected="selected">- Select -</option>
+                                    <option value="m">Male</option>
+                                    <option value="f">Female</option>
+                                </select>
+                            </div>
+                            
+                            <div class="field-item text">
+                                <label for="passport">Weight</label>
+                                <input type="text" id="passport" placeholder="XX00000000" name="passport">
+                            </div>
+                            
+                            <div class="field-item text">
+                                <label for="passport">Height</label>
+                                <input type="text" id="passport" placeholder="XX00000000" name="passport">
+                            </div>
+                            
+                            <div class="field-item text">
+                                <label for="passport">Hair Colour</label>
+                                <input type="text" id="passport" placeholder="XX00000000" name="passport">
+                            </div>
+                            
+                            <div class="field-item text">
+                                <label for="passport">Eye Colour</label>
+                                <input type="text" id="passport" placeholder="XX00000000" name="passport">
+                            </div>
+                            
+                            <div class="field-item text">
+                                <label for="physical-address">Physical Address</label>
+                                <input type="text" id="physical-address-street" placeholder="Street" name="physical-address-street">
+                                <input type="text" id="physical-address-suburb" placeholder="Suburb" name="physical-address-suburb">
+                                <input type="text" id="physical-address-town" placeholder="Town" name="physical-address-town">
+                            </div>
+                                                        
+                            <div class="field-item text">
+                                <label for="physical-address">Postal Address</label>
+                                <input type="text" id="physical-address-street" placeholder="Street" name="physical-address-street">
+                                <input type="text" id="physical-address-suburb" placeholder="Suburb" name="physical-address-suburb">
+                                <input type="text" id="physical-address-town" placeholder="Town" name="physical-address-town">
+                                <input type="text" id="physical-address-code" placeholder="Code" name="physical-address-code">
+                            </div>
+                            
+                            <div class="field-item text">
+                                <label for="tel">Tel Number</label>
+                                <input type="text" id="tel" placeholder="0000000000" name="tel">
+                            </div>
+                            
+                            <div class="field-item text">
+                                <label for="work">Work Number</label>
+                                <input type="text" id="work" placeholder="0000000000" name="work">
+                            </div>
+                                                        
+                            <div class="field-item text">
+                                <label for="mobile">Mobile Number</label>
+                                <input type="text" id="mobile" placeholder="0000000000" name="mobile">
+                            </div>
+                                                                                    
+                            <div class="field-item text">
+                                <label for="mobile">Email Address</label>
+                                <input type="text" id="email" placeholder="e.g. info@ctba.co.za" name="email">
+                            </div>
+                                                                                                             
+                            <div class="field-item text">
+                                <label for="profession">Profession</label>
+                                <input type="text" id="profession" name="profession">
+                            </div>
+                                                                                                                                         
+                            <div class="field-item text">
+                                <label for="company">Company/Institution</label>
+                                <input type="text" id="company" name="company">
+                            </div>                                                                                                             
+                            <div class="field-item text">
+                                <label for="medical-aid-scheme">Medical Aid Scheme</label>
+                                <input type="text" id="medical-aid-scheme" name="medical-aid-scheme">
+                            </div>
+                                                                                                                                         
+                            <div class="field-item text">
+                                <label for="medical-aid-number">Medical Aid Number</label>
+                                <input type="text" id="medical-aid-number" name="medical-aid-number">
+                            </div>
+                            
+                            <div class="field-item text">
+                                <label for="medical-aid-member">Principal Member</label>
+                                <input type="text" id="medical-aid-member" name="medical-aid-member">
+                            </div>
+                            
+                            <div class="field-item text">
+                                <label for="father">Father's Name</label>
+                                <input type="text" id="father" name="father">
+                            </div>
+                                                        
+                            <div class="field-item text">
+                                <label for="father-tel">Father's Telephone Number</label>
+                                <input type="text" id="father-tel" placeholder="0000000000" name="father-tel">
+                            </div>
+                                                        
+                            <div class="field-item text">
+                                <label for="mother">Mother's Name</label>
+                                <input type="text" id="mother" name="mother">
+                            </div>
+                                                        
+                            <div class="field-item text">
+                                <label for="mother-tel">Mother's Telephone Number</label>
+                                <input type="text" id="mother-tel" placeholder="0000000000" name="mother-tel">
+                            </div>
+                                                                                  
+                            <div class="field-item text">
+                                <label for="guardian">Guardian's Name</label>
+                                <input type="text" id="guardian" name="guardian">
+                            </div>
+                                                        
+                            <div class="field-item text">
+                                <label for="guardian-tel">Guardian's Telephone Number</label>
+                                <input type="text" id="guardian-tel" placeholder="0000000000" name="guardian-tel">
+                            </div>
+                           
+                        </div>
+
+                    </div>
+                    
+                </fieldset>   
+                
+                <fieldset>
+
+                    <legend class="panel-heading">
+                        Identification Information
+                    </legend>
+
+                    <div>
+
+                        <div class="panel-body">
+                            
+                            <div class="field-item text">
+                                <label for="passport">Nationality</label>
+                                <input type="text" id="nationality" placeholder="e.g. South Africa" name="nationality">
+                            </div>
                             
                             <div class="field-item text">
                                 <label for="id-type">Identification Type</label>
@@ -117,69 +327,11 @@
 
                     </div>
                     
-                </fieldset>   
+                </fieldset>
                 
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-
                 <div class="field-item text">
-                    <label for="club-name">Player Name</label>
-                    <input type="text" id="club-name" placeholder="club name" name="club-name">
+                    <a href="main.php" class="button">SUBMIT</a>
                 </div>
-
-                <div class="field-item text">
-                    <label for="club-name">Player Surname</label>
-                    <input type="text" id="club-name" placeholder="e.g. John Handy" name="club-name">
-                </div>
-
-                <div class="field-item text">
-                    <label for="club-name">Player Tel</label>
-                    <input type="text" id="club-name" placeholder="e.g. 080 000 000" name="club-name">
-                </div>
-
-                <div class="field-item text">
-                    <label for="club-name">Player Fax</label>
-                    <input type="text" id="club-name" placeholder="e.g. 086 000 000" name="club-name">
-                </div>
-
-                <div class="field-item text">
-                    <label for="club-name">Player Email</label>
-                    <input type="text" id="club-name" placeholder="e.g. info@clubname.co.za" name="club-name">
-                </div>
-
-                <div class="field-item text">
-                    <label for="club-name">Player Address</label>
-                    <input type="text" id="club-name" placeholder="e.g. Street" name="club-name">
-                    <input type="text" id="club-name" placeholder="e.g. Suburb" name="club-name">
-                    <input type="text" id="club-name" placeholder="e.g. Town" name="club-name">
-                    <input type="text" id="club-name" placeholder="e.g. Code" name="club-name">
-                </div>
-
-                <div class="field-item text">
-                    <label for="club-name">Player ID/Passport</label>
-                    <input type="text" id="club-name" placeholder="e.g. blue and white" name="club-name">
-                </div>
-
-                <div class="field-item text">
-                    <label for="club-name">Player Date of Birth</label>
-                    <input type="text" id="club-name" placeholder="e.g. white and green" name="club-name">
-                </div>
-
-                <a href="main.php" class="button">SUBMIT</a>
                 
             </form>
             
