@@ -9,4 +9,6 @@ _system/_bower.cache
 _system/.sass-cache
 _system/node_modules
 
+
 application/config/database.php
+application/config/config.php
