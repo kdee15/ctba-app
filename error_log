@@ -1,0 +1,10 @@
+[16-May-2015 07:44:37 UTC] PHP Parse error:  syntax error, unexpected 'welcome_message' (T_STRING), expecting ',' or ';' in /home/ctbacnpm/public_html/player-admin/application/controllers/Welcome.php on line 24
+[16-May-2015 07:44:55 UTC] PHP Parse error:  syntax error, unexpected '$this' (T_VARIABLE), expecting ',' or ';' in /home/ctbacnpm/public_html/player-admin/application/controllers/Welcome.php on line 24
+[16-May-2015 07:50:07 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/ctbacnpm/public_html/player-admin/application/controllers/Welcome.php on line 31
+[16-May-2015 07:55:03 UTC] PHP Parse error:  syntax error, unexpected '',$data);' (T_ENCAPSED_AND_WHITESPACE) in /home/ctbacnpm/public_html/player-admin/application/controllers/Welcome.php on line 28
+[16-May-2015 08:07:01 UTC] PHP Parse error:  syntax error, unexpected '$route' (T_VARIABLE) in /home/ctbacnpm/public_html/player-admin/application/config/routes.php on line 53
+[16-May-2015 08:20:00 UTC] PHP Parse error:  syntax error, unexpected '->' (T_OBJECT_OPERATOR) in /home/ctbacnpm/public_html/playeradmin/application/controllers/Leagues.php on line 23
+[16-May-2015 10:56:37 UTC] PHP Fatal error:  Call to a member function addLeague() on a non-object in /home/ctbacnpm/public_html/playeradmin/application/controllers/Leagues.php on line 49
+[16-May-2015 10:59:29 UTC] PHP Fatal error:  Call to a member function addLeague() on a non-object in /home/ctbacnpm/public_html/playeradmin/application/controllers/Leagues.php on line 49
+[16-May-2015 11:02:30 UTC] PHP Fatal error:  Call to a member function addLeague() on a non-object in /home/ctbacnpm/public_html/playeradmin/application/controllers/Leagues.php on line 54
+[16-May-2015 11:10:38 UTC] PHP Fatal error:  Call to a member function getClub() on a non-object in /home/ctbacnpm/public_html/playeradmin/application/controllers/Teams.php on line 31
